@@ -1,0 +1,65 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.PagedList<MAX_KID.Models.Entities.SANPHAM>
+@{
+    ViewBag.Title = "TimKiemSanPhamAdmin";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<table class="table table-bordered text-center">
+    <tr>
+        <th class="text-center">
+            IDSP
+        </th>
+        <th class="text-center">
+            IDLSP
+        </th>
+        <th class="text-center">
+            IDHSX
+        </th>
+        <th class="text-center">
+            TÊN SẢN PHẨM
+        </th>
+        <th class="text-center">
+            ẢNH
+        </th>
+        <th class="text-center">
+            THÔNG SỐ KĨ THUẬT
+        </th>
+        <th class="text-center">
+            GIÁ
+        </th>
+        <th class="text-center">TÁC VỤ</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.ID_SanPham)</td>
+            <td>@Html.DisplayFor(modelItem => item.ID_LoaiSP)</td>
+            <td>@Html.DisplayFor(modelItem => item.ID_HangSX)</td>
+            <td>@Html.DisplayFor(modelItem => item.TenSanPham)</td>
+            <td><div><img src="@Url.Content("~/Content/Theme/images/"+item.ImgLink)" width="150px" height="150px"></div></td>
+            <td>@Html.DisplayFor(modelItem => item.ThongSoKiThuat)</td>
+            <td>@Html.DisplayFor(modelItem => item.GiaSanPham) VNĐ</td>
+            <td>
+                @Html.ActionLink("SỬA", "Edit", new { id = item.ID_SanPham }) |
+                @Html.ActionLink("XÓA", "Delete", new { id = item.ID_SanPham })
+            </td>
+        </tr>
+    }
+</table>
+@*Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount*@
+<div class="menu-trang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</div>
+<style>
+    .menu-trang li {
+        display: inline;
+    }
+
+    .table > tbody > tr > td {
+        vertical-align: central;
+    }
+</style>

@@ -1,0 +1,26 @@
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\MAX KID.dll.config
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\MAX KID.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\MAX KID.pdb
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\EntityFramework.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\EntityFramework.SqlServer.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\PagedList.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\PagedList.Mvc.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Helpers.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Mvc.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Razor.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Deployment.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Razor.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\EntityFramework.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\EntityFramework.SqlServer.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\PagedList.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\PagedList.Mvc.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Razor.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Deployment.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Razor.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Helpers.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\bin\System.Web.Mvc.xml
+D:\VISUAL\MAX KID\MAX KID\MAX KID\obj\Debug\ABC.csprojResolveAssemblyReference.cache
+D:\VISUAL\MAX KID\MAX KID\MAX KID\obj\Debug\MAX KID.dll
+D:\VISUAL\MAX KID\MAX KID\MAX KID\obj\Debug\MAX KID.pdb

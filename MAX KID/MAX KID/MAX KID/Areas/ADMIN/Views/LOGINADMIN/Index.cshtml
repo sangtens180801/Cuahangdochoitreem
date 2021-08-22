@@ -1,0 +1,31 @@
+﻿@model MAX_KID.Models.Entities.Account
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/SANPHAM/_LayoutSign.cshtml";
+}
+<h1 style="color: #C50023; "></h1>
+@using (Html.BeginForm("Index", "LOGINADMIN", new { ReturnUrl = Request.QueryString["returnUrl"] }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="log-input">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="log-input">
+            <div class="user">
+                @Html.TextBoxFor(model => model.UserName, new { placeholder = "♕ Nhập vào tên tài khoản" })
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+        </div>
+
+        <div class="log-input">
+            <div class="lock">
+                @Html.PasswordFor(model => model.Password, new { placeholder = "♔ Nhập vào mật khẩu" })
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <input type="submit" value="ĐĂNG NHẬP" />
+    </div>
+}
+
+

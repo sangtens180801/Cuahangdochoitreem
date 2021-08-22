@@ -1,0 +1,40 @@
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\MAX KID.dll.config
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\MAX KID.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\MAX KID.pdb
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Autofac.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Autofac.Integration.Mvc.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\EntityFramework.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\EntityFramework.SqlServer.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Microsoft.Owin.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Microsoft.Web.Infrastructure.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Newtonsoft.Json.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Owin.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\PagedList.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\PagedList.Mvc.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Helpers.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Mvc.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Razor.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Deployment.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Razor.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Autofac.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Autofac.Integration.Mvc.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\EntityFramework.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\EntityFramework.SqlServer.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Microsoft.Owin.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\Newtonsoft.Json.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\PagedList.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\PagedList.Mvc.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Razor.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Deployment.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Webpages.Razor.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Helpers.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\bin\System.Web.Mvc.xml
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\obj\Release\MAX KID.csproj.AssemblyReference.cache
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\obj\Release\MAX KID.csproj.CoreCompileInputs.cache
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\obj\Release\MAX KID.csproj.CopyComplete
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\obj\Release\MAX KID.dll
+D:\BÁN ĐỒ CHƠI TRẺ EM\MAX KID\MAX KID\MAX KID\obj\Release\MAX KID.pdb

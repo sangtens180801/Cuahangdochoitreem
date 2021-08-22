@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MAX_KID.Models.Entities.LOAISP>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    @Html.ActionLink("THÊM LOẠI SẢN PHẨM MỚI", "Create")
+</p>
+<table class="table table-bordered text-center">
+    <tr>
+        <th class="text-center">
+            MÃ LOẠI SẢN PHẨM
+        </th>
+        <th class="text-center">
+            TÊN LOẠI SẢN PHẨM
+        </th>
+        <th class="text-center">
+            TÁC VỤ
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_LoaiSP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenLoaiSP)
+        </td>
+        <td>
+            @Html.ActionLink("SỬA", "Edit", new { id=item.ID_LoaiSP }) |
+            @Html.ActionLink("XÓA", "Delete", new { id=item.ID_LoaiSP })
+        </td>
+    </tr>
+}
+
+</table>

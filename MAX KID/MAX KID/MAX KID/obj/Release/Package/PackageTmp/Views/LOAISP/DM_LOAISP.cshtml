@@ -1,0 +1,6 @@
+﻿@using MAX_KID.Models.Entities;
+@model IEnumerable<LOAISP>
+@foreach (LOAISP p in Model)
+{
+    <li><a href="SANPHAM/LocTheoLoaiSP/@p.ID_LoaiSP">@p.TenLoaiSP</a></li>
+}

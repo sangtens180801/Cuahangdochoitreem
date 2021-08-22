@@ -1,0 +1,225 @@
+﻿@model MAX_KID.Models.Entities.SANPHAM
+
+
+<html>
+<!DOCTYPE HTML>
+<head>
+    <link rel="SHORTCUT ICON" href="~/Content/Theme/images/icon1.png" />
+    <title>MAX KID | Home : CoppyRight Of W3S</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/Content/Theme/css/style.css" rel="stylesheet" />
+    @*<link href="~/Content/Theme/css/slider.css" rel="stylesheet" />*@
+    <script src="~/Content/Theme/js/move-top.js"></script>
+    <script src="~/Content/Theme/js/jquery-1.7.2.min.js"></script>
+    <script src="~/Content/Theme/js/jquery.easing.js"></script>
+    <script src="~/Content/Theme/js/startstop-slider.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="headertop_desc">
+                
+                <div class="account_desc">
+                    <ul>
+                        <li><a href="#">ĐĂNG KÍ</a></li>
+                        <li><a href="#">ĐĂNG NHẬP</a></li>
+                        <li><a href="#">GIỎ HÀNG</a></li>
+                        <li><a href="#">TÀI KHOẢN CỦA TÔI</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="header_top">
+                
+                <div class="cart">
+                    <p>
+                        <span>Giỏ hàng:</span><div id="dd" class="wrapper-dropdown-2">
+                            0 sản phẩm | 0 VNĐ
+                            <ul class="dropdown">
+                                <li>bạn đang có ... sản phẩm</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+                <script type="text/javascript">
+                    function DropDown(el) {
+                        this.dd = el;
+                        this.initEvents();
+                    }
+                    DropDown.prototype = {
+                        initEvents: function () {
+                            var obj = this;
+
+                            obj.dd.on('click', function (event) {
+                                $(this).toggleClass('active');
+                                event.stopPropagation();
+                            });
+                        }
+                    }
+
+                    $(function () {
+
+                        var dd = new DropDown($('#dd'));
+
+                        $(document).click(function () {
+                            // all dropdowns
+                            $('.wrapper-dropdown-2').removeClass('active');
+                        });
+
+                    });
+
+                </script>
+                <div class="clear"></div>
+            </div>
+
+            <br />
+            <div class="header_bottom">
+                <div class="menu">
+                    @Html.Partial("Menu")
+                </div>
+                <div class="search_box">
+                    @using (Html.BeginForm("TimKiem", "SANPHAM", FormMethod.Post))
+                    {
+
+                        @Html.TextBox("txttimkiem", "", htmlAttributes: new { @class = "TextBoxTimKiem", @placeholder = "nhập vào sản phẩm" })
+                        <input type="submit" value="" />
+
+                    }
+                </div>
+                <div class="clear"></div>
+            </div>
+            <br />
+            <div class="content_top">
+                <div class="heading">
+                    <h3>CHI TIẾT SẢN PHẨM</h3>
+                </div>
+                <div class="see">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="main">
+                <div class="content">
+                    @*<div class="content_top">
+                            <div class="clear"></div>
+                        </div>*@
+                    <div class="section group">
+                        <div class="cont-desc span_1_of_2">
+                            <div class="grid images_3_of_2">
+                                <img src="~/Content/Theme/images/@Model.ImgLink" alt="" />
+                            </div>
+                            <div class="desc span_3_of_2">
+                                <h2>Tên sản phẩm: @Model.TenSanPham</h2>
+                                <p>Mã sản phẩm: <span>@Model.ID_SanPham</span></p>
+                                <div class="price">
+                                    <p>Giá sản phẩm: <span>@string.Format("{0:##,#}", @Model.GiaSanPham) VNĐ</span></p>
+                                </div>
+                                <div class="available">
+                                </div>
+                                <div class="add-cart" style="background:repeat-x">
+                                    <div class="button"><a href="/cart/AddItem/@Model.ID_SanPham">Mua hàng</a></div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="product-desc"><hr />
+                                <h2>Thông tin sản phẩm</h2><hr />
+                                @*<p>Nhà sản xuất:@Model.NHASANXUAT</p>*@
+                                <p></p>
+                            </div>
+                            <div class="product-tags"><hr />
+                                <h2>Sản Phẩm Tương Tự</h2><hr />
+                                <h4></h4>
+                                <div class="input-box">
+                                    <input type="text" value="" />
+                                </div>
+                                <div class="button"><span><a href="#">Tags</a></span></div>
+                            </div>
+                        </div>
+                        <div class="rightsidebar span_3_of_1">
+                            <h2></h2>
+                            <img src="~/Content/Theme/images/vector 6113 big-sale.jpg" alt="" width="320px" height="600px" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="wrap">
+                    <div class="section group">
+                        <div class="col_1_of_4 span_1_of_4">
+                            <h4>THÔNG TIN</h4>
+                            <ul>
+                                <li><a href="about.html">CƠ BẢN</a></li>
+                                <li><a href="contact.html">NÂNG CAO</a></li>
+                                <li><a href="#">TÌM KIẾM</a></li>
+                                <li><a href="delivery.html">MUA HÀNG</a></li>
+                                <li><a href="contact.html">SỐ ĐIỆN THOẠI</a></li>
+                            </ul>
+                        </div>
+                        <div class="col_1_of_4 span_1_of_4">
+                            <h4>TẠI SAO MUA</h4>
+                            <ul>
+                                <li><a href="about.html">HƯỚNG DẪN</a></li>
+                                <li><a href="contact.html">CHỈ ĐƯỜNG</a></li>
+                                <li><a href="#">CAM KẾT</a></li>
+                                <li><a href="contact.html">TIN TỨC MỚI</a></li>
+                                <li><a href="#">GÓP Ý</a></li>
+                            </ul>
+                        </div>
+                        <div class="col_1_of_4 span_1_of_4">
+                            <h4>TÀI KHOẢN</h4>
+                            <ul>
+                                <li><a href="contact.html">ĐĂNG KÝ</a></li>
+                                <li><a href="index.html">ĐĂNG NHẬP</a></li>
+                                <li><a href="#">GIỎ HÀNG</a></li>
+                                <li><a href="#">ĐỒ ĐÃ MUA</a></li>
+                                <li><a href="contact.html">HỖ TRỢ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col_1_of_4 span_1_of_4">
+                            <h4>LIÊN HỆ MUA SỈ LẺ</h4>
+                            <ul>
+                                <li><span>0912 5392 37</span></li>
+                                
+                            </ul>
+                            <div class="social-icons">
+                                <h4>Follow Us</h4>
+                                <ul>
+                                    <li><a href="#" target="_blank"><img src="~/Content/Theme/images/facebook.png" alt="" /></a></li>
+                                    <li><a href="#" target="_blank"><img src="~/Content/Theme/images/twitter.png" alt="" /></a></li>
+                                    <li><a href="#" target="_blank"><img src="~/Content/Theme/images/skype.png" alt="" /> </a></li>
+                                    <li><a href="#" target="_blank"> <img src="~/Content/Theme/images/dribbble.png" alt="" /></a></li>
+                                    <li><a href="#" target="_blank"> <img src="~/Content/Theme/images/linkedin.png" alt="" /></a></li>
+                                    <div class="clear"></div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy_right">
+                    <p>&copy; 2017 MAX KID. All rights reserved | CoppyRight Of <a href="m.me/trandir.ctv">W3S</a></p>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+
+                });
+            </script>
+            <a href="#" id="toTop"><span id="toTopHover"> </span></a>
+</body>
+</html>
+
+<style>
+    .col_1_of_4h4 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .span_1_of_4 h4 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .heading h3 {
+        font-family: 'Times New Roman';
+    }
+</style>
